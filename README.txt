@@ -1,132 +1,156 @@
-# NotiAnalyst AI 📢: Analizador Inteligente de Noticias
+Entiendo perfectamente. Quieres el contenido del README en un formato de texto plano (.txt) para que sea fácil de copiar y pegar directamente, sin problemas con el Markdown ni el formato. ¡Absolutamente!
 
-NotiAnalyst AI es una aplicación Python que utiliza Inteligencia Artificial para obtener, analizar, filtrar y presentar noticias. Realiza análisis de sentimiento, detección de noticias falsas, clasificación temática, análisis emocional y resumen de texto para ofrecer una perspectiva más profunda sobre la información.
+Aquí tienes el contenido completo del README, listo para ser pegado en un archivo llamado README.md (sí, el archivo en sí sigue llamándose .md, pero el contenido es texto plano que GitHub interpretará correctamente).
 
-## ✨ Características
+# 🚀 NotiAnalyst AI: Tu Analizador Inteligente de Noticias
 
-* **Recopilación de Noticias**: Obtiene las últimas noticias en español utilizando la API de GNews.
+---
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat&logo=python)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=flat&logo=streamlit)](https://streamlit.io/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub last commit](https://img.shields.io/github/last-commit/StefanMarioMagura/analizador-noticias-ai-public?style=flat)](https://github.com/StefanMarioMagura/analizador-noticias-ai-public/commits/main)
+
+NotiAnalyst AI es una potente aplicación en Python diseñada para **obtener, analizar, filtrar y presentar noticias** de forma inteligente utilizando técnicas avanzadas de Inteligencia Artificial. Desde el análisis de sentimiento hasta la detección de noticias falsas y el resumen automático, esta herramienta ofrece una perspectiva profunda y multifacética sobre la información actual, presentada en una interfaz web interactiva con Streamlit.
+
+---
+
+## ✨ Características Destacadas
+
+* **Recopilación Inteligente**: Obtiene las últimas noticias en español a través de la API de GNews.
 * **Análisis Multifacético con IA**:
-    * **Sentimiento**: Clasifica las noticias de 1 a 5 estrellas (modelo multilingüe).
-    * **Detección de Fake News**: Identifica si una noticia es probablemente real o falsa.
-    * **Clasificación Temática**: Determina el tema principal de la noticia (ej. deportes, tecnología) usando zero-shot classification.
-    * **Análisis Emocional**: Detecta la emoción predominante en el texto (ej. alegría, enojo).
-    * **Resumen Automático**: Genera un resumen conciso de cada noticia.
-* **Categorización Personalizada**: Clasifica las noticias en categorías como "Buena/Objetiva", "Subjetiva pero verdadera", "Dudosa/Falsa".
-* **Extracción de Noticias Objetivas**: Filtra y presenta un conjunto de noticias consideradas altamente objetivas según criterios estrictos.
-* **Interfaz Web Interactiva**: Muestra las noticias analizadas en una aplicación web fácil de usar construida con Streamlit, con imágenes, resúmenes y todos los insights de la IA.
+    * **Análisis de Sentimiento**: Clasifica el tono de cada noticia en una escala de 1 a 5 estrellas, utilizando un modelo BERT multilingüe.
+    * **Detección de "Fake News"**: Identifica la probabilidad de que una noticia sea real o falsa, contribuyendo a un consumo de información más crítico.
+    * **Clasificación Temática**: Determina el tema principal de la noticia (e.g., deportes, tecnología, política) mediante **clasificación zero-shot**, sin necesidad de entrenamiento previo.
+    * **Análisis Emocional**: Detecta la emoción predominante en el texto (e.g., alegría, enojo, tristeza), ofreciendo una capa adicional de entendimiento.
+    * **Resumen Automático**: Genera resúmenes concisos y coherentes de cada noticia, facilitando la comprensión rápida.
+* **Categorización Personalizada**: Clasifica las noticias según su objetividad y veracidad percibida: "Buena/Objetiva", "Subjetiva pero verdadera", y "Dudosa/Falsa".
+* **Extracción de Noticias Objetivas**: Filtra y presenta un subconjunto de noticias consideradas de alta objetividad, basadas en criterios de análisis rigurosos.
+* **Interfaz Web Interactiva**: Visualiza todos los análisis y datos en una aplicación web intuitiva desarrollada con **Streamlit**, que incluye imágenes, resúmenes y todos los insights de la IA.
+
+---
 
 ## 📂 Estructura del Proyecto
 
-```
 .
-├── main.py                 # Script para obtener noticias de GNews API y guardarlas en noticias.json
-├── analizar_filtrar.py     # Script principal para analizar noticias con IA y generar noticias_filtradas.json y noticias_objetivas.json
-├── app_web.py              # Aplicación web Streamlit para visualizar las noticias analizadas
-├── noticias.json           # (Generado) Noticias crudas obtenidas de GNews
-├── noticias_filtradas.json # (Generado) Noticias analizadas y categorizadas para la web
-├── noticias_objetivas.json # (Generado) Subconjunto de noticias altamente objetivas
-├── .env                    # (Necesitas crearlo) Para guardar tu API Key de GNews
-├── requirements.txt        # Dependencias de Python
-└── README.md               # Este archivo
-```
-*(Opcional: `analizador_objetividad.py` - Script experimental para un análisis de objetividad alternativo, no integrado en el flujo principal de la app web.)*
+├── main.py                     # Script principal: obtiene noticias de GNews API -> noticias.json
+├── analizar_filtrar.py         # Módulo de IA: procesa datos -> noticias_filtradas.json, noticias_objetivas.json
+├── app_web.py                  # Aplicación web Streamlit para visualización interactiva
+├── noticias.json               # (Generado) Almacena las noticias crudas de GNews
+├── noticias_filtradas.json     # (Generado y Necesario para app web) Noticias con análisis de IA
+├── noticias_objetivas.json     # (Generado y Necesario para app web) Noticias filtradas por objetividad
+├── requirements.txt            # Lista de dependencias de Python
+└── .gitignore                  # Archivos y directorios ignorados por Git (¡muy recomendable!)
+└── README.md                   # Este archivo
+
+
+---
 
 ## ⚙️ Requisitos Previos
 
-* Python 3.8+
-* pip (gestor de paquetes de Python)
-* Una cuenta de Hugging Face (y haber iniciado sesión con `huggingface-cli login` si usas modelos que lo requieran, aunque los modelos actuales son públicos).
-* Una API Key de [GNews.io](https://gnews.io/)
+Para ejecutar NotiAnalyst AI localmente, asegúrate de tener instalado lo siguiente:
 
-## 🚀 Instalación
+* **Python 3.8+**
+* **pip** (gestor de paquetes de Python)
+* **Git**
+* Una cuenta de [GitHub](https://github.com/) (para clonar el repositorio).
+* Una **API Key de [GNews.io](https://gnews.io/)**. (Necesaria para `main.py`).
 
-1.  **Clona el repositorio (si está en uno) o descarga los archivos.**
+---
+
+## 🚀 Instalación y Uso Local
+
+Sigue estos pasos para poner en marcha NotiAnalyst AI en tu máquina local:
+
+1.  **Clona el Repositorio:**
+    Abre tu terminal y clona este proyecto.
     ```bash
-    # Ejemplo si estuviera en Git
-    # git clone [https://tu-repositorio-url.git](https://tu-repositorio-url.git)
-    # cd tu-proyecto
+    git clone [https://github.com/StefanMarioMagura/analizador-noticias-ai-public.git](https://github.com/StefanMarioMagura/analizador-noticias-ai-public.git) # Reemplaza con la URL de tu nuevo repo
+    cd analizador-noticias-ai-public # Reemplaza con el nombre de tu repo
     ```
 
-2.  **Crea y activa un entorno virtual (recomendado):**
+2.  **Configura tu Entorno Virtual (altamente recomendado):**
+    Crear un entorno virtual aísla las dependencias de tu proyecto.
     ```bash
     python -m venv venv
-    # En Windows
+    # Para activar en Windows:
     venv\Scripts\activate
-    # En macOS/Linux
+    # Para activar en macOS/Linux:
     source venv/bin/activate
     ```
 
-3.  **Instala las dependencias:**
+3.  **Instala las Dependencias:**
+    Todas las librerías necesarias están listadas en `requirements.txt`.
     ```bash
     pip install -r requirements.txt
     ```
-    *Nota sobre PyTorch (`torch`)*: Si tienes problemas con la instalación de `torch` o quieres usar una versión específica para GPU, visita la [página oficial de PyTorch](https://pytorch.org/get-started/locally/) para obtener el comando de instalación adecuado para tu sistema y configuración de CUDA.
+    * **Nota sobre PyTorch (`torch`):** Si encuentras problemas con la instalación de `torch` o deseas aprovechar tu GPU, visita la [página oficial de PyTorch](https://pytorch.org/get-started/locally/) para obtener el comando de instalación específico para tu sistema.
 
 4.  **Configura tu API Key de GNews:**
-    * Crea un archivo llamado `.env` en la raíz del proyecto.
-    * Añade tu API Key de GNews al archivo `.env` de la siguiente manera:
+    Dado que esta es una versión pública del proyecto, la API Key no está incluida en el código por seguridad.
+
+    * **Opción A: Inyectar la clave directamente en el código (solo si el repositorio es privado, con extrema precaución):**
+        Si tu repositorio es **privado**, puedes añadir tu clave directamente en `main.py` donde se usa `API_KEY`.
+        ```python
+        # Ejemplo en main.py (NO HACER SI EL REPOSITORIO ES PÚBLICO)
+        API_KEY = "TU_CLAVE_REAL_DE_GNEWS_AQUI"
         ```
-        GNEWS_API_KEY=TU_API_KEY_AQUI
-        ```
+    * **Opción B: Usar una variable de entorno del sistema (recomendado para seguridad y flexibilidad):**
+        Establece `API_KEY` como una variable de entorno en tu sistema operativo.
+        * **En Windows:** Busca "Editar las variables de entorno del sistema" -> "Variables de entorno..." -> "Nueva..." en Variables de usuario, con `Nombre de la variable: API_KEY` y `Valor de la variable: tu_clave_de_gnews_aqui`. Cierra y reabre tu terminal.
+        * Luego, en tu código Python, asegúrate de que se accede a la variable:
+            ```python
+            import os
+            API_KEY = os.getenv("API_KEY")
+            ```
 
-5.  **(Opcional) Login en Hugging Face CLI:**
-    Si vas a usar modelos privados o algunos que requieran autenticación (los actuales no deberían, pero es buena práctica si expandes):
-    ```bash
-    huggingface-cli login
-    ```
-    Esto guardará tu token de Hugging Face localmente.
+---
 
-## ▶️ Uso
+## ▶️ Flujo de Uso (Ejecución Local)
 
-El proceso se divide en tres pasos principales:
+NotiAnalyst AI opera en tres fases principales:
 
 1.  **Obtener Noticias Crudas:**
-    Ejecuta `main.py` para descargar las últimas noticias de GNews. Esto creará o actualizará el archivo `noticias.json`.
+    Descarga las últimas noticias de GNews. Esto creará o actualizará el archivo `noticias.json`.
     ```bash
     python main.py
     ```
-    Puedes cambiar el número de noticias a descargar editando el parámetro `max` en `main.py`.
 
 2.  **Analizar y Filtrar Noticias con IA:**
-    Ejecuta `analizar_filtrar.py` para procesar las noticias de `noticias.json`. Este script aplicará todos los modelos de IA y generará:
-    * `noticias_filtradas.json`: Contiene las noticias analizadas y organizadas en secciones como "destacadas", "mejores", "peores".
-    * `noticias_objetivas.json`: Contiene un subconjunto de noticias consideradas altamente objetivas.
+    Procesa las noticias de `noticias.json` aplicando todos los modelos de IA. Esto generará o actualizará `noticias_filtradas.json` y `noticias_objetivas.json`. Este paso puede consumir recursos y tiempo, dependiendo del volumen de noticias y tu hardware.
     ```bash
     python analizar_filtrar.py
     ```
-    Este proceso puede tardar un poco dependiendo del número de noticias y la potencia de tu CPU/GPU.
 
 3.  **Visualizar en la Aplicación Web:**
-    Lanza la aplicación Streamlit para ver e interactuar con las noticias analizadas.
+    Inicia la interfaz interactiva de Streamlit para explorar los resultados del análisis.
     ```bash
     streamlit run app_web.py
     ```
-    Abre tu navegador web y ve a la dirección URL local que te indica Streamlit (usualmente `http://localhost:8501`).
+    Una vez lanzada, abre tu navegador y visita la URL proporcionada por Streamlit (generalmente `http://localhost:8501`).
 
-Para mantener la aplicación actualizada, deberás ejecutar los pasos 1 y 2 periódicamente.
+---
 
-## 🔧 Solución de Posibles Errores
+## 🌐 Despliegue (Ejemplo con Streamlit Community Cloud)
 
-* **`GNEWS_API_KEY` no encontrada / Error de API**:
-    * Asegúrate de que el archivo `.env` existe en la raíz del proyecto y contiene `GNEWS_API_KEY=TU_API_KEY_REAL`.
-    * Verifica que tu API Key de GNews sea válida y no haya excedido la cuota.
-* **Errores al descargar modelos de Hugging Face**:
+Puedes desplegar NotiAnalyst AI fácilmente para compartirla con el mundo:
+
+1.  Asegúrate de que **tu proyecto esté en un repositorio de GitHub público**.
+2.  **¡Importante!** Los archivos `noticias_filtradas.json` y `noticias_objetivas.json` deben estar **actualizados y subidos** a tu repositorio de GitHub. Estos JSON son los que la aplicación web leerá para mostrar los datos analizados.
+3.  Visita [share.streamlit.io](https://share.streamlit.io/), conecta tu cuenta de GitHub, y despliega la aplicación seleccionando tu repositorio y el archivo `app_web.py`.
+
+---
+
+## 🔧 Solución de Posibles Errores Comunes
+
+* **`API_KEY` no encontrada / Error de API**:
+    * Verifica que has configurado correctamente tu `API_KEY` como variable de entorno del sistema o directamente en el código (si es privado).
+    * Asegúrate de que tu API Key de GNews sea válida y que no hayas excedido tu cuota de solicitudes.
+* **Errores al descargar modelos de Hugging Face (en `analizar_filtrar.py`)**:
     * Comprueba tu conexión a internet.
-    * Asegúrate de tener suficiente espacio en disco (los modelos pueden ser grandes).
-    * Algunos modelos pueden ser eliminados o movidos; verifica el nombre del modelo en [Hugging Face Model Hub](https://huggingface.co/models).
-* **Problemas de dependencias (`ModuleNotFoundError`)**:
-    * Asegúrate de haber activado tu entorno virtual.
-    * Ejecuta `pip install -r requirements.txt` nuevamente.
-* **Rendimiento Lento del Análisis**:
-    * El análisis de IA, especialmente con múltiples modelos, puede ser intensivo.
-    * Si tienes una GPU compatible con CUDA y PyTorch configurado para GPU (cambiando `device = 0` en `analizar_filtrar.py`), el proceso será más rápido.
-    * Reduce el número de noticias a analizar si es necesario para pruebas.
-* **Modelo Emocional en Español**:
-    * El modelo `j-hartmann/emotion-english-distilroberta-base` está entrenado en inglés. Para noticias en español, su precisión puede variar. Considera buscar modelos de análisis de emociones multilingües o específicos para español en Hugging Face si los resultados no son satisfactorios.
-* **Resultados de "Tema Principal" no satisfactorios**:
-    * El análisis temático zero-shot depende de la calidad del texto y de la lista de `posibles_categorias` definida en `analizar_filtrar.py`. Puedes ajustar estas categorías.
-    * La interfaz web ahora muestra el tema solo si la confianza es superior a un umbral (30% por defecto en `app_web.py`, puedes ajustarlo).
-
-## 퓨 Contribuciones
-
-¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar el proyecto, por favor abre un issue o un pull request (si estuviera en un repositorio público).
+    * Asegúrate de tener suficiente espacio en disco en tu máquina.
+* **`ModuleNotFoundError`**:
+    * Confirma que tu entorno virtual está activo y que ejecutaste `pip install -r requirements.txt` correctamente.
+* **Problemas de rendimiento durante el análisis**:
+    * El procesamiento de IA es intensivo en recursos. Considera la posibilidad de utilizar una GPU (`device=0` en tu código, si tienes una y está configurada) para acelerar el proceso.
+    * Para pruebas, puedes reducir el número de noticias que se obtienen en `main.py`.
