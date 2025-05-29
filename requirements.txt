@@ -1,0 +1,15 @@
+requests
+python-dotenv
+transformers
+torch
+torchvision
+torchaudio
+sentencepiece # A menudo es dependencia de transformers para tokenizers
+streamlit
+requests
+python-dotenv
+# Especifica versiones si es necesario, ej: streamlit==1.20.0
+# Si usas GPU con CUDA:
+# torch==X.X.X+cuXXX (según tu versión de CUDA)
+# Asegúrate de que la versión de torch sea compatible con tu CUDA si usas GPU.
+# Para CPU, la instalación genérica de torch suele funcionar.

@@ -1,0 +1,439 @@
+{
+    "noticias_destacadas": [
+        {
+            "titulo": "Cinco claves para entender qué está pasando con el IGV en el Congreso",
+            "descripcion_original": "El Congreso debate cambios al IGV: una ley redistribuye fondos a municipios y un proyecto busca reducirlo para atraer inversión. ¿Cómo te afecta?",
+            "url_noticia": "https://elcomercio.pe/economia/cinco-claves-para-entender-que-esta-pasando-con-el-igv-en-el-congreso-igv-14-congreso-boluarte-noticia/",
+            "imagen_url": "https://elcomercio.pe/resizer/v2/TTYOOFZ4LNA3HL3WSRP57OQDZQ.png?auth=4296aaf19f6f1226c12e2bb19dbbff15c9f228656a85e876e6987d379856342d&width=980&height=528&quality=75&smart=true",
+            "fuente_nombre": "El Comercio Perú",
+            "sentimiento": "5 stars",
+            "confianza_sentimiento": 0.4726945757865906,
+            "estrellas_sentimiento": 5,
+            "fake_news": "LABEL_1",
+            "confianza_fake": 0.999090313911438,
+            "categoria_final": "Buena/Objetiva",
+            "tema": "política",
+            "confianza_tema": 0.4539456069469452,
+            "emocion": "neutral",
+            "confianza_emocion": 0.5819902420043945,
+            "detalles_emocion": [
+                {
+                    "label": "neutral",
+                    "score": 0.5819902420043945
+                },
+                {
+                    "label": "anger",
+                    "score": 0.12662136554718018
+                },
+                {
+                    "label": "disgust",
+                    "score": 0.09399386495351791
+                },
+                {
+                    "label": "fear",
+                    "score": 0.0938059464097023
+                },
+                {
+                    "label": "surprise",
+                    "score": 0.07074206322431564
+                },
+                {
+                    "label": "sadness",
+                    "score": 0.019088929519057274
+                },
+                {
+                    "label": "joy",
+                    "score": 0.013757618144154549
+                }
+            ],
+            "resumen": "El Congreso debate cambios al IGV. Una ley redistribuye fondos a municipios. Un proyecto busca reducirlo para atraer inversión. Cinco claves para entender qué está pasando."
+        },
+        {
+            "titulo": "¡Vóley de Luto! Lucha Fuentes, gloria del deporte, fallece a los 76 años",
+            "descripcion_original": "Lucha Fuentes | Leyenda olímpica, campeona mundial y panamericana con la selección peruana de vóley partió a la gloria este miércoles. Tras su retiro se dedicó a la formación de nuevas voleibolistas.",
+            "url_noticia": "https://trome.com/deportes/polideportivo/voley-de-luto-lucha-fuentes-gloria-del-deporte-fallece-a-los-76-anos-fotos-seleccion-peruana-de-voley-noticia/",
+            "imagen_url": "https://trome.com/resizer/v2/2IGUD2R6BFGXHGC2LT7JCUOH3E.jpg?auth=ca9c244eeeb8627174be86747468773d067102ded4780ce95a1364bd1333a5d4&width=980&height=528&quality=75&smart=true",
+            "fuente_nombre": "Trome.com",
+            "sentimiento": "5 stars",
+            "confianza_sentimiento": 0.7082830667495728,
+            "estrellas_sentimiento": 5,
+            "fake_news": "LABEL_1",
+            "confianza_fake": 0.9984992742538452,
+            "categoria_final": "Buena/Objetiva",
+            "tema": "deportes",
+            "confianza_tema": 0.8705368638038635,
+            "emocion": "neutral",
+            "confianza_emocion": 0.5854163765907288,
+            "detalles_emocion": [
+                {
+                    "label": "neutral",
+                    "score": 0.5854163765907288
+                },
+                {
+                    "label": "joy",
+                    "score": 0.12808996438980103
+                },
+                {
+                    "label": "fear",
+                    "score": 0.09477581083774567
+                },
+                {
+                    "label": "surprise",
+                    "score": 0.07100147753953934
+                },
+                {
+                    "label": "anger",
+                    "score": 0.054387081414461136
+                },
+                {
+                    "label": "disgust",
+                    "score": 0.03336967155337334
+                },
+                {
+                    "label": "sadness",
+                    "score": 0.03295962139964104
+                }
+            ],
+            "resumen": "Lucha Fuentes, campeona mundial y panamericana, fallece a los 76 años. Tras su retiro se dedicó a la formación de nuevas voleibolistas."
+        },
+        {
+            "titulo": "Grupo Poma debuta en Perú con dos hoteles y mira más allá del turismo: ¿a qué sector?",
+            "descripcion_original": "Tras inaugurar dos hoteles en Lima, el Grupo Poma evalúa nuevas oportunidades en el sector de turismo e inmobiliaria que podrían concretarse en los próximos cuatro años en Perú.",
+            "url_noticia": "https://gestion.pe/economia/empresas/grupo-poma-debuta-en-peru-con-dos-hoteles-y-mira-mas-alla-del-turismo-a-que-sector-noticia/",
+            "imagen_url": "https://gestion.pe/resizer/v2/HSP2ZIB2BFE7RCX7U57CEZSTBE.jpg?auth=97a988df454177ac35f1a43325e7f33fe501a6c84a4d729050f17c844a31dbde&width=980&height=528&quality=75&smart=true",
+            "fuente_nombre": "Gestión",
+            "sentimiento": "4 stars",
+            "confianza_sentimiento": 0.4311031997203827,
+            "estrellas_sentimiento": 4,
+            "fake_news": "LABEL_1",
+            "confianza_fake": 0.9983830451965332,
+            "categoria_final": "Buena/Objetiva",
+            "tema": "entretenimiento",
+            "confianza_tema": 0.2120896279811859,
+            "emocion": "neutral",
+            "confianza_emocion": 0.6290773153305054,
+            "detalles_emocion": [
+                {
+                    "label": "neutral",
+                    "score": 0.6290773153305054
+                },
+                {
+                    "label": "fear",
+                    "score": 0.14265859127044678
+                },
+                {
+                    "label": "surprise",
+                    "score": 0.13122983276844025
+                },
+                {
+                    "label": "anger",
+                    "score": 0.03264579176902771
+                },
+                {
+                    "label": "disgust",
+                    "score": 0.03215314447879791
+                },
+                {
+                    "label": "joy",
+                    "score": 0.020047316327691078
+                },
+                {
+                    "label": "sadness",
+                    "score": 0.012187940999865532
+                }
+            ],
+            "resumen": "Grupo Poma debuta en Perú con dos hoteles y mira más allá del turismo. Tras inaugurar two hoteles, evalúa nuevas oportunidades en el sector de turismo e inmobiliaria."
+        }
+    ],
+    "mejores_noticias": [],
+    "peores_noticias": [
+        {
+            "titulo": "Hernando de Soto confirma su renuncia al partido Progresemos y no podrá postular a la presidencia en las elecciones 2026",
+            "descripcion_original": "El economista reiteró que el líder de la agrupación no cumplió con los acuerdos adoptados en julio de 2024. Anunció que apoyará a precandidatos a migrar a otros partidos políticos.",
+            "url_noticia": "https://elcomercio.pe/politica/partidos/hernando-de-soto-confirma-su-renuncia-al-partido-progresemos-y-no-podra-postular-a-la-presidencia-en-las-elecciones-2026-noticia/",
+            "imagen_url": "https://elcomercio.pe/resizer/v2/TQTWMUPMU5DR7J5EJB4O5YXYWU.jpeg?auth=f46f9a2d4de6c373a1ff03cf1413891bf92af077f103acc3f9621c8b89e1325e&width=980&height=528&quality=75&smart=true",
+            "fuente_nombre": "El Comercio Perú",
+            "sentimiento": "1 star",
+            "confianza_sentimiento": 0.6037818193435669,
+            "estrellas_sentimiento": 1,
+            "fake_news": "LABEL_1",
+            "confianza_fake": 0.9972679615020752,
+            "categoria_final": "Subjetiva pero verdadera",
+            "tema": "economía",
+            "confianza_tema": 0.3982970714569092,
+            "emocion": "neutral",
+            "confianza_emocion": 0.5569370985031128,
+            "detalles_emocion": [
+                {
+                    "label": "neutral",
+                    "score": 0.5569370985031128
+                },
+                {
+                    "label": "disgust",
+                    "score": 0.13586167991161346
+                },
+                {
+                    "label": "anger",
+                    "score": 0.11168066412210464
+                },
+                {
+                    "label": "fear",
+                    "score": 0.08990157395601273
+                },
+                {
+                    "label": "sadness",
+                    "score": 0.06232272461056709
+                },
+                {
+                    "label": "joy",
+                    "score": 0.03622042387723923
+                },
+                {
+                    "label": "surprise",
+                    "score": 0.00707585085183382
+                }
+            ],
+            "resumen": "Hernando de Soto confirma su renuncia al partido Progresemos. No podrá postular a la presidencia en las elecciones 2026. Anunció que apoyará a precandidatos a migrar a otros partidos."
+        },
+        {
+            "titulo": "Elon Musk confirma su salida del gobierno de Trump",
+            "descripcion_original": "El magnate dueño de Tesla y SpaceX se dijo \"decepcionado\" por el programa fiscal del gobierno que \"socava\" el trabajo del DOGE.",
+            "url_noticia": "https://www.dw.com/es/elon-musk-confirma-su-salida-del-gobierno-de-trump/a-72706821",
+            "imagen_url": "https://static.dw.com/image/72627211_6.jpg",
+            "fuente_nombre": "dw.com",
+            "sentimiento": "1 star",
+            "confianza_sentimiento": 0.5215586423873901,
+            "estrellas_sentimiento": 1,
+            "fake_news": "LABEL_1",
+            "confianza_fake": 0.9474015831947327,
+            "categoria_final": "Subjetiva pero verdadera",
+            "tema": "política",
+            "confianza_tema": 0.378083735704422,
+            "emocion": "neutral",
+            "confianza_emocion": 0.6354497075080872,
+            "detalles_emocion": [
+                {
+                    "label": "neutral",
+                    "score": 0.6354497075080872
+                },
+                {
+                    "label": "fear",
+                    "score": 0.1688891500234604
+                },
+                {
+                    "label": "anger",
+                    "score": 0.068589948117733
+                },
+                {
+                    "label": "sadness",
+                    "score": 0.03739330172538757
+                },
+                {
+                    "label": "joy",
+                    "score": 0.03693420812487602
+                },
+                {
+                    "label": "surprise",
+                    "score": 0.02665865048766136
+                },
+                {
+                    "label": "disgust",
+                    "score": 0.026085054501891136
+                }
+            ],
+            "resumen": "El magnate dueño de Tesla y SpaceX se dijo \"decepcionado\" por el programa fiscal del gobierno que \"socava\" el trabajo del DOGE."
+        },
+        {
+            "titulo": "Minsa dispuso lineamientos para vacunación contra fiebre amarilla en 5 regiones prorizadas",
+            "descripcion_original": "Últimas noticias de Perú y el mundo sobre política, locales, deportes, culturales, espectáculos, economía, y tecnología en la Agencia Peruana de Noticias Andina",
+            "url_noticia": "https://andina.pe/agencia/noticia-minsa-dispuso-lineamientos-para-vacunacion-contra-fiebre-amarilla-5-regiones-prorizadas-1031371.aspx",
+            "imagen_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2025/04/28/001165110W.jpg",
+            "fuente_nombre": "Agencia Peruana de Noticias | ANDINA",
+            "sentimiento": "1 star",
+            "confianza_sentimiento": 0.28136134147644043,
+            "estrellas_sentimiento": 1,
+            "fake_news": "LABEL_1",
+            "confianza_fake": 0.9890331029891968,
+            "categoria_final": "Subjetiva pero verdadera",
+            "tema": "tecnología",
+            "confianza_tema": 0.2110087275505066,
+            "emocion": "neutral",
+            "confianza_emocion": 0.8015440106391907,
+            "detalles_emocion": [
+                {
+                    "label": "neutral",
+                    "score": 0.8015440106391907
+                },
+                {
+                    "label": "fear",
+                    "score": 0.06534183025360107
+                },
+                {
+                    "label": "anger",
+                    "score": 0.03780074045062065
+                },
+                {
+                    "label": "surprise",
+                    "score": 0.030709728598594666
+                },
+                {
+                    "label": "disgust",
+                    "score": 0.02783381938934326
+                },
+                {
+                    "label": "sadness",
+                    "score": 0.026173816993832588
+                },
+                {
+                    "label": "joy",
+                    "score": 0.010595991276204586
+                }
+            ],
+            "resumen": "Minsa dispuso lineamientos para vacunación contra fiebre amarilla en 5 regiones prorizadas. Últimas noticias de Perú y el mundo sobre política, locales, deportes."
+        },
+        {
+            "titulo": "Musk anuncia su salida del Gobierno Trump, tras expresar que plan fiscal socava su trabajo",
+            "descripcion_original": "El magnate Elon Musk anunció este miércoles su salida del Gobierno de Donald Trump, tras expresar “decepción” por el megaproyecto fiscal y presupuestario del republicano, que -según dijo- “socava” su trabajo como asesor de eficiencia.",
+            "url_noticia": "https://elcomercio.pe/mundo/eeuu/elon-musk-anuncia-su-salida-del-gobierno-de-donald-trump-tras-expresar-que-plan-fiscal-socava-su-trabajo-estados-unidos-doge-departamento-de-eficiencia-gubernamental-usa-ultimas-noticia/",
+            "imagen_url": "https://elcomercio.pe/resizer/v2/6FH7OIXD75GI5FUTI6J4VTEWGM.jpg?auth=4bf8eefced8ef036e479844e3ecf861b9ceb4c46de80cf98fbd0ac0cbf74084e&width=980&height=528&quality=75&smart=true",
+            "fuente_nombre": "El Comercio Perú",
+            "sentimiento": "1 star",
+            "confianza_sentimiento": 0.441289484500885,
+            "estrellas_sentimiento": 1,
+            "fake_news": "LABEL_0",
+            "confianza_fake": 0.9991382360458374,
+            "categoria_final": "Dudosa/Falsa",
+            "tema": "política",
+            "confianza_tema": 0.48794612288475037,
+            "emocion": "neutral",
+            "confianza_emocion": 0.5966389179229736,
+            "detalles_emocion": [
+                {
+                    "label": "neutral",
+                    "score": 0.5966389179229736
+                },
+                {
+                    "label": "fear",
+                    "score": 0.12885363399982452
+                },
+                {
+                    "label": "anger",
+                    "score": 0.07809119671583176
+                },
+                {
+                    "label": "disgust",
+                    "score": 0.07774084806442261
+                },
+                {
+                    "label": "sadness",
+                    "score": 0.06366655230522156
+                },
+                {
+                    "label": "joy",
+                    "score": 0.033025991171598434
+                },
+                {
+                    "label": "surprise",
+                    "score": 0.021982867270708084
+                }
+            ],
+            "resumen": "Elon Musk anuncia su salida del Gobierno Trump, tras expresar que plan fiscal socava su trabajo. Musk -según dijo- ‘socava’ su tr jobajo como asesor de eficiencia."
+        },
+        {
+            "titulo": "Vóley peruano de luto: Lucha Fuentes fallece a los 76 años",
+            "descripcion_original": "Lucha Fuentes falleció hoy, miércoles 28 de mayo del 2025 a los 76 años. Así lo informó la Federación de Vóley peruano.",
+            "url_noticia": "https://elcomercio.pe/deporte-total/voley/fallece-lucha-fuentes-hoy-miercoles-28-de-mayo-del-2025-a-los-76-anos-noticia/",
+            "imagen_url": "https://elcomercio.pe/resizer/v2/H3Z5NPV4T5ESVIUJZCGSXMOKDY.jpg?auth=4e84cbdeb05994eb78c8732bf7843e4e0b83ff1f6bd8c867afa77af25510fdcd&width=980&height=528&quality=75&smart=true",
+            "fuente_nombre": "El Comercio Perú",
+            "sentimiento": "1 star",
+            "confianza_sentimiento": 0.5199655294418335,
+            "estrellas_sentimiento": 1,
+            "fake_news": "LABEL_1",
+            "confianza_fake": 0.99883633852005,
+            "categoria_final": "Subjetiva pero verdadera",
+            "tema": "salud",
+            "confianza_tema": 0.3798520565032959,
+            "emocion": "neutral",
+            "confianza_emocion": 0.877945065498352,
+            "detalles_emocion": [
+                {
+                    "label": "neutral",
+                    "score": 0.877945065498352
+                },
+                {
+                    "label": "fear",
+                    "score": 0.03793029114603996
+                },
+                {
+                    "label": "surprise",
+                    "score": 0.02407606691122055
+                },
+                {
+                    "label": "sadness",
+                    "score": 0.018516695126891136
+                },
+                {
+                    "label": "anger",
+                    "score": 0.01551294606178999
+                },
+                {
+                    "label": "joy",
+                    "score": 0.014628334902226925
+                },
+                {
+                    "label": "disgust",
+                    "score": 0.011390544474124908
+                }
+            ],
+            "resumen": "Lucha Fuentes falleció hoy, miércoles 28 de mayo del 2025 a los 76 años. Así lo informó la Federación de Vóley peruano."
+        },
+        {
+            "titulo": "Lucha Fuentes, leyenda del vóley peruano, falleció",
+            "descripcion_original": "Falleció Lucha Fuentes, leyenda del vóley peruano | Lucha Fuentes | vóley peruano | Luisa Fuentes Quijandría | Federación Peruana de Vóley |",
+            "url_noticia": "https://peru21.pe/deportes/lucha-fuentes-leyenda-del-voley-peruano-fallecio-luisa-fuentes-quijandria/",
+            "imagen_url": "http://peru21.pe/sites/default/efsfiles/styles/amp_1200x675_16_9/public/2025-05/lucha-fuentes.png?itok=mbrGZhzI",
+            "fuente_nombre": "Perú 21",
+            "sentimiento": "1 star",
+            "confianza_sentimiento": 0.2707396447658539,
+            "estrellas_sentimiento": 1,
+            "fake_news": "LABEL_1",
+            "confianza_fake": 0.9920667409896851,
+            "categoria_final": "Subjetiva pero verdadera",
+            "tema": "entretenimiento",
+            "confianza_tema": 0.19475582242012024,
+            "emocion": "neutral",
+            "confianza_emocion": 0.7594349980354309,
+            "detalles_emocion": [
+                {
+                    "label": "neutral",
+                    "score": 0.7594349980354309
+                },
+                {
+                    "label": "joy",
+                    "score": 0.11089170724153519
+                },
+                {
+                    "label": "surprise",
+                    "score": 0.039593059569597244
+                },
+                {
+                    "label": "anger",
+                    "score": 0.029796414077281952
+                },
+                {
+                    "label": "fear",
+                    "score": 0.02542588859796524
+                },
+                {
+                    "label": "disgust",
+                    "score": 0.019868649542331696
+                },
+                {
+                    "label": "sadness",
+                    "score": 0.014989357441663742
+                }
+            ],
+            "resumen": "Lucha Fuentes, leyenda del vóley peruano, falleció. Lucha fuentes was part of the Federación Peruana de Vóley."
+        }
+    ]
+}
